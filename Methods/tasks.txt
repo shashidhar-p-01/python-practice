@@ -1,0 +1,30 @@
+1. Create calculator.py module with add and subtract functions.
+2. Create employee.py module with salary and bonus calculation functions.
+3. Create bank.py module with deposit and withdraw functions.
+4. Create temperature.py module for temperature conversion.
+5. Create result.py module for total and percentage calculation.
+6. Create discount.py module for discount calculation.
+7. Create tax.py module for GST and tax calculation.
+8. Create attendance.py module for attendance percentage calculation.
+9. Create electricity.py module for electricity bill calculation.
+10. Create shopping.py module for cart total and final bill.
+11. Create utilities package with math and string modules.
+12. Create shopping package with product and billing modules.
+13. Create school package with student and teacher modules.
+14. Create hospital package with patient and doctor modules.
+15. Create banking package with account and transaction modules.
+16. Create ecommerce package with product and order modules.
+17. Create company package with employee and department modules.
+18. Create restaurant package with menu and billing modules.
+19. Create library package with books and issue modules.
+20. Create movie_app package with movies and booking modules.
+21. Create decorator to print welcome message before function execution.
+22. Create decorator to print before and after function execution.
+23. Create decorator to check login before dashboard access.
+24. Create decorator to calculate function execution time.
+25. Create decorator to convert output into uppercase.
+26. Create decorator to multiply returned result by 2.
+27. Create decorator to validate password before login.
+28. Create decorator to verify OTP before payment.
+29. Create decorator to allow access only for admin users.
+30. Create decorator to check integer input before calculation.
