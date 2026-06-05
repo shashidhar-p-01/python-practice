@@ -1,0 +1,160 @@
+
+
+
+
+
+
+
+
+
+
+
+
+18. Use Alias
+
+Import:
+
+math
+
+using alias:
+
+import math as m
+
+Calculate square root of a number.
+
+21. Random Module Practice
+
+Generate:
+
+Random number between 1 and 100
+Random choice from a list
+22. Datetime Module
+
+Display:
+
+Current date
+Current time
+Current year
+23. Math Module
+
+Find:
+
+Square root
+Power
+Factorial
+
+using math module.
+
+Package Coding Questions
+24. Create Your First Package
+
+Create structure:
+
+my_package/
+│
+├── __init__.py
+├── math_ops.py
+
+Add functions:
+
+add()
+multiply()
+
+Import and use them.
+
+25. Student Management Package
+
+Create package:
+
+student_package/
+│
+├── __init__.py
+├── student.py
+├── report.py
+
+Requirements:
+
+student.py → create student details
+report.py → print report card
+
+Import both files.
+
+26. Employee Package
+
+Create:
+
+employee/
+│
+├── __init__.py
+├── details.py
+├── salary.py
+
+Use both modules in main.py.
+
+27. Nested Package
+
+Create:
+
+company/
+│
+├── __init__.py
+│
+└── hr/
+    ├── __init__.py
+    └── employee.py
+
+Import employee module from main file.
+
+28. Package Calculator
+
+Create package:
+
+calculator/
+│
+├── __init__.py
+├── arithmetic.py
+├── advanced.py
+
+Functions:
+
+add()
+subtract()
+square_root()
+power()
+
+Use all functions in another file.
+
+29. Package Challenge
+
+Create package:
+
+bank/
+│
+├── __init__.py
+├── account.py
+├── transactions.py
+
+Requirements:
+
+Create account
+Deposit money
+Withdraw money
+Check balance
+30. Mini Project (OOP + Modules + Packages)
+
+Create a package:
+
+library_management/
+│
+├── __init__.py
+├── book.py
+├── member.py
+├── library.py
+
+Features:
+
+Add Book
+Register Member
+Issue Book
+Return Book
+Display Available Books
