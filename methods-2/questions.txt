@@ -28,6 +28,7 @@ Generate:
 
 Random number between 1 and 100
 Random choice from a list
+
 22. Datetime Module
 
 Display:

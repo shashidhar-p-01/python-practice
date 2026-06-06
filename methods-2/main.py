@@ -1,5 +1,5 @@
 import random
-import date
+import datetime
 import calculator
 from greetings import welcome
 import math as m 
@@ -28,4 +28,8 @@ li = random.randint(1,100)
 print(li)
 print(random.choice(['apple', 'banana', 'cherry']))
 
-
+# 22. Datetime Module Practice
+now = datetime.datetime.now()
+print("Current date:", now.date())
+print("Current time:", now.time())
+print("Current year:", now.year)
