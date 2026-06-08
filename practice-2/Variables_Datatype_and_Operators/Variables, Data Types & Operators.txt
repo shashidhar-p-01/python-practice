@@ -1,0 +1,21 @@
+1. Variables, Data Types & Operators
+
+A health check script reads CPU usage from a log as the string "87.5". Convert it to a float, check if it's above 80, and print: "ALERT: web01 CPU at 87.5% — threshold breached" using an f-string.
+
+You have disk_used = 450 and disk_total = 500. Calculate the percentage using arithmetic operators, round to 2 decimal places, and print "CRITICAL" if above 90%, "WARNING" if above 75%, else "OK".
+
+A config reader returns everything as strings: timeout = "30", retries = "3", verbose = "True". Convert each to the correct Python type. Watch the trap — bool("False") is not False.
+
+A hostname comes in from user input as " Web-Server-01 ". Clean it to "web-server-01" using string methods only — no manual loops.
+
+Given uptime_seconds = 345678, use only arithmetic operators to break it into days, hours, and minutes. Print: "Uptime: 3d 23h 59m".
+
+You need to validate a port number entered as a string. Check it's numeric, convert to int, and verify it's between 1 and 65535. Print "VALID" or "INVALID" with a reason.
+
+An IP address string "192.168.100.25" comes in. Use slicing to extract the subnet ("192.168.100") and the host octet ("25").
+
+Given level = "ERROR", service = "auth-api", code = 503, build this exact log line using only an f-string: "[ERROR] auth-api returned 503 — investigate immediately".
+
+A script receives two values: allocated_gb = "16" and used_gb = "13.4". Compute free memory as a float, then check if free memory is below 20% of allocated using a single comparison expression.
+
+Use type() and isinstance() to validate that server_name is str, port is int, and active is bool. Print "All types valid" or "FAIL: <varname> is wrong type" for each bad one.
